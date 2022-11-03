@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Document Object Model</title>
+    <script>
+        window.onload = function () {
+        var headers = document.querySelectorAll('h1');
+
+        for (var i = 0; i < headers.length; i++) {
+            var header = headers[i];
+
+            header.style.color = 'orange';
+            header.style.background = 'blue';
+            header.innerHTML = 'From JavaScript';
+        }
+        };
+
+    </script>
+</head>
+<body>
+    <h1>Header - 1</h1> 
+    <h1>Header - 2</h1>
+    <h1>Header - 3</h1>
+</body>
+</html>

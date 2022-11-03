@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Document Object Model</title>
+    <script>
+        //화면 구성 완료되면
+        window.onload = function () {
+            //h1 태그 내부의 문자 변경
+        var header = document.getElementById('header');
+        header.innerHTML = '<i>i 태그입니다</i><br />';
+        header.innerHTML += '&lt;i&gt;i 태그입니다&lt;/i&gt;';
+        };
+
+    </script>
+</head>
+<body>
+    <h1 id="header">Header - 1</h1> 
+</body>
+</html>

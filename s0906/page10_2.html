@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Basic</title>
+        <script>
+            window.onload = function () {
+                var button = document.getElementById('button');
+
+                //이벤트 연결
+                button.onclick = function() {
+                    alert('click');
+                };
+            };
+        </script> 
+    </head>
+    <body>
+        <button id = "button">버튼</button>
+    </body>
+</html>
